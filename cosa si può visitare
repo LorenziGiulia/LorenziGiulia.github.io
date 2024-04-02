@@ -5,6 +5,38 @@
 </title>  
 </head>
 <body style="background-color: rgb(241, 144, 161)">
+ <style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: rgb(241, 144, 161);
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: justify;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover:not(.active) {
+      background-color: rgb(241, 144, 161);
+    }
+    
+    .active {
+      background-color: rgb(241, 144, 161);
+    }
+    p {font-family: calibri light;}
+    h1{font-family: book antiqua;}
+
+    </style>
  <h1> Cosa si può visitare </h1>
 <p align=justify> <pre>
 <ul> 
