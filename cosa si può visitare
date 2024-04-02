@@ -1,4 +1,10 @@
-<Doctype html!>
+<!DOCTYPE html>
+<html>
+<head>
+<title> LA CITTA' DI BARCELLONA
+</title>  
+</head>
+<body style="background-color: rgb(241, 144, 161)">
  <h1> Cosa si può visitare </h1>
 <p align=justify> <pre>
 <ul> 
