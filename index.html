@@ -5,14 +5,13 @@
 </title> 
 
 <body style="background-color: rgb(241,144,161)">
- <style>
   <style>
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #dddddd;
+  background-color: rgb(241,144,161) ;
 }
 
 li {
@@ -21,7 +20,7 @@ li {
 
 li a {
   display: block;
-  padding: 8px;
+  padding: 10px;
 }
   ul {
       list-style-type: none;
@@ -53,16 +52,46 @@ li a {
     p {font-family: bodoni MT;}
     h1{font-family: book antiqua;}
 
-    </style>
+</style>
 </head>
 <div>
  <ul> 
   <li><a href="paginauno.html">cosa visitare</a></li>
   <li><a href="#news">cartina</a></li>
   <li><a href="#contact">altro collegamento</a></li>
+  ul#menu {
+    font-family: Verdana, sans-serif;
+    font-size: 11px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul#menu li {
+    background-color: #FF831C;
+    border-bottom: 5px solid #54BAE2;
+    display: block;
+    width: 150px;
+    height: 30px;
+    margin: 2px;
+    float: left; /* elementi su singola riga */
+}
+ul#menu li a {
+    color: #f400a1;
+    display: block;
+    font-weight: bold;
+    line-height: 30px;
+    text-decoration: none;
+    width: 150px;
+    height: 30px;
+    text-align: left;
+}
+ul#menu li.active, ul#menu li:hover {
+    background-color: #f400a1;
+    border-bottom: 5px solid #FF831C;
+}
 </ul>
 </div>
-  <p align=left> 
+  <p align=center> 
   <h1> LA CITTA' DI BARCELLONA </h1>
 Barcellona, la seconda città spagnoala per numero di abitanti dopo la capitale Madrid, è il capoluogo della Comunità autonoma della Catalogna.
 È situata in una limitata pianura costiera al nord dello stato spagnolo, tra i fiumi Llobregat e Besós, ai piedi della catena costiera catalana. 
@@ -74,13 +103,6 @@ nonché il maggior porto commerciale e turistico spagnolo e uno dei maggiori d'E
 Oltre alla possibilità di vantare queste caratteristiche, Barcellona offre molti bellissimi luoghi da visitare e coinvolgenti attività da praticare.</p></pre>
  <img src= "tour-barcellona.jpg" alt= "Image" height="400" widht="400">
 
-   
-     
-<p aling=justify>
-  </p>
-  
-
-    
 </body>
 </html>
 
