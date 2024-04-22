@@ -2,7 +2,7 @@
 <html>
 <head>
     <title> LA CITTA' DI BARCELLONA</title>
-</head>
+
 <style>
     ul {
         list-style-type: none;
@@ -40,18 +40,68 @@
         font-family: book antiqua;
     }
 
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+body {margin: 0;}
 
+ul.sidenav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #000;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+ul.sidenav li a {
+  display: block;
+  color: #f400a1;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+ 
+ul.sidenav li a.active {
+  background-color:#f400a1 ;
+  color: white;
+}
+
+ul.sidenav li a:hover:not(.active) {
+  background-color:#f400a1;
+  color: white;
+}
+
+div.content {
+  margin-left: 25%;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 900px) {
+  ul.sidenav {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  
+  ul.sidenav li a {
+    float: left;
+    padding: 15px;
+  }
+  
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  ul.sidenav li a {
+    text-align: center;
+    float: none;
+  }
+}
 </style>
+</head>   
+    
 <body>
-<div>
-    <ul>
-        <li><a href="../index.html"> home </a></li>
-        <li><a href="paginauno.html">cosa visitare</a></li>
-        <li><a href="paginadue.html">cartina</a></li>
-
-
-    </ul>
-</div>
 <h1> Posizione delle cose da visitare </h1>
 <p> Qui s può trovare la cartina della città di Bracellona che mostra la distanza tra le attrazioni vivitate prima per
     un viaggio organizzato ed imperdibile</p>
