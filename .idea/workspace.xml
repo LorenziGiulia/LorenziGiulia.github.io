@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2e7d050-1d12-4dc5-852b-8963f85afd03" name="Changes" comment="major changes to the site, uploaded new index.html, cosavedere.html, cartina.html">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sito2/cartina.html" beforeDir="false" afterPath="$PROJECT_DIR$/sito2/cartina.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sito2/cosavedere.html" beforeDir="false" afterPath="$PROJECT_DIR$/sito2/cosavedere.html" afterDir="false" />
-    </list>
+    <list default="true" id="b2e7d050-1d12-4dc5-852b-8963f85afd03" name="Changes" comment="last changes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,7 +93,7 @@
       <workItem from="1713368200610" duration="315000" />
       <workItem from="1713718972028" duration="2537000" />
       <workItem from="1713805169527" duration="1268000" />
-      <workItem from="1713888153794" duration="12521000" />
+      <workItem from="1713888153794" duration="12541000" />
     </task>
     <task id="LOCAL-00001" summary="added version 2.0 (homepage.html), fixed index.html">
       <option name="closed" value="true" />
@@ -188,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713901267357</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="last changes">
+      <option name="closed" value="true" />
+      <created>1713903175953</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1713903175953</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +214,7 @@
     <MESSAGE value="refractoring , added cosavedere.html(work in progress)" />
     <MESSAGE value="new site" />
     <MESSAGE value="major changes to the site, uploaded new index.html, cosavedere.html, cartina.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="major changes to the site, uploaded new index.html, cosavedere.html, cartina.html" />
+    <MESSAGE value="last changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="last changes" />
   </component>
 </project>
