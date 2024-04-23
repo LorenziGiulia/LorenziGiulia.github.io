@@ -1,0 +1,306 @@
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html>\r\n<head>\r\n<title> LA CITTA' DI BARCELLONA\r\n</title> \r\n\r\n<body style=\"background-color: rgb(241,144,161)\">\r\n  <style>\r\nul {\r\n  list-style-type: none;\r\n  margin: 0;\r\n  padding: 0;\r\n  overflow: hidden;\r\n  background-color: rgb(241,144,161) ;\r\n}\r\n\r\nli {\r\n  float: left;\r\n}\r\n\r\nli a {\r\n  display: block;\r\n  padding: 10px;\r\n}\r\n  ul {\r\n      list-style-type: none;\r\n      margin: 0;\r\n      padding: 0;\r\n      overflow: hidden;\r\n      background-color: rgb(241, 144, 161);\r\n    }\r\n    \r\n    li {\r\n      float: left;\r\n    }\r\n    \r\n    li a {\r\n      display: block;\r\n      color: white;\r\n      text-align: justify;\r\n      padding: 14px 16px;\r\n      text-decoration: none;\r\n    }\r\n    \r\n    li a:hover:not(.active) {\r\n      background-color: rgb(241, 144, 161);\r\n    }\r\n    \r\n    .active {\r\n      background-color: rgb(241, 144, 161);\r\n    }\r\n    p {font-family: bodoni MT;}\r\n    h1{font-family: book antiqua;}\r\n\r\n</style>\r\n</head>\r\n<div>\r\n <ul> \r\n  <li><a href=\"paginauno.html\">cosa visitare</a></li>\r\n  <li><a href=\"#news\">cartina</a></li>\r\n  <li><a href=\"#contact\">altro collegamento</a></li>\r\n\r\n</ul>\r\n</div>\r\n  <p align=center> \r\n  <h1> LA CITTA' DI BARCELLONA </h1>\r\nBarcellona, la seconda città spagnoala per numero di abitanti dopo la capitale Madrid, è il capoluogo della Comunità autonoma della Catalogna.\r\nÈ situata in una limitata pianura costiera al nord dello stato spagnolo, tra i fiumi Llobregat e Besós, ai piedi della catena costiera catalana. \r\noltre ad essere il principale centro commerciale, finanaziario ed editoriale del paese.\r\nNel 1992 fu sede delle Olimpiadi estive. Nel 2004 vi si è tenuto per la prima volta il Forum Universale delle Culture oltre a ciò\r\nè anche la sede fissa del Mobile World Congress e dell'Unione per il Mediterraneo. Grazie del turismo, al porto e alla vicinanza \r\ncon la Francia, la città è il secondo maggior centro industriale e finanziario della Spagna dopo Madrid, \r\nnonché il maggior porto commerciale e turistico spagnolo e uno dei maggiori d'Europa.\r\nOltre alla possibilità di vantare queste caratteristiche, Barcellona offre molti bellissimi luoghi da visitare e coinvolgenti attività da praticare.</p></pre>\r\n <img src= \"tour-barcellona.jpg\" alt= \"Image\" height=\"400\" widht=\"400\" align=\"center\">\r\n\r\n</body>\r\n</html>\r\n\r\n\r\n\r\n\r\n \r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/index.html b/index.html
+--- a/index.html	
++++ b/index.html	
+@@ -1,78 +1,93 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+-<title> LA CITTA' DI BARCELLONA
+-</title> 
+-
+-<body style="background-color: rgb(241,144,161)">
+-  <style>
+-ul {
+-  list-style-type: none;
+-  margin: 0;
+-  padding: 0;
+-  overflow: hidden;
+-  background-color: rgb(241,144,161) ;
+-}
++    <title> LA CITTA' DI BARCELLONA
++
++    </title>
++</head>
++<style>
++    ul {
++        list-style-type: none;
++        margin: 0;
++        padding: 0;
++        overflow: hidden;
++        background-color: rgb(241, 144, 161);
++    }
+ 
+-li {
+-  float: left;
+-}
++    li {
++        float: left;
++    }
+ 
+-li a {
+-  display: block;
+-  padding: 10px;
+-}
+-  ul {
+-      list-style-type: none;
+-      margin: 0;
+-      padding: 0;
+-      overflow: hidden;
+-      background-color: rgb(241, 144, 161);
++    li a {
++        display: block;
++        padding: 10px;
++    }
++
++    ul {
++        list-style-type: none;
++        margin: 0;
++        padding: 0;
++        overflow: hidden;
++        background-color: rgb(241, 144, 161);
+     }
+-    
++
+     li {
+-      float: left;
++        float: left;
+     }
+-    
++
+     li a {
+-      display: block;
+-      color: white;
+-      text-align: justify;
+-      padding: 14px 16px;
+-      text-decoration: none;
++        display: block;
++        color: white;
++        text-align: justify;
++        padding: 14px 16px;
++        text-decoration: none;
+     }
+-    
++
+     li a:hover:not(.active) {
+-      background-color: rgb(241, 144, 161);
++        background-color: rgb(241, 144, 161);
+     }
+-    
++
+     .active {
+-      background-color: rgb(241, 144, 161);
++        background-color: rgb(241, 144, 161);
+     }
+-    p {font-family: bodoni MT;}
+-    h1{font-family: book antiqua;}
++
++    p {
++        font-family: bodoni MT;
++    }
++
++    h1 {
++        font-family: book antiqua;
++    }
+ 
+ </style>
+-</head>
++
++<body style="background-color: rgb(241,144,161)">
++
++
+ <div>
+- <ul> 
+-  <li><a href="paginauno.html">cosa visitare</a></li>
+-  <li><a href="#news">cartina</a></li>
+-  <li><a href="#contact">altro collegamento</a></li>
++    <ul>
++        <li><a href="paginauno.html">cosa visitare</a></li>
++        <li><a href="#news">cartina</a></li>
++        <li><a href="#contact">altro collegamento</a></li>
+ 
+-</ul>
++    </ul>
+ </div>
+-  <p align=center> 
+-  <h1> LA CITTA' DI BARCELLONA </h1>
+-Barcellona, la seconda città spagnoala per numero di abitanti dopo la capitale Madrid, è il capoluogo della Comunità autonoma della Catalogna.
+-È situata in una limitata pianura costiera al nord dello stato spagnolo, tra i fiumi Llobregat e Besós, ai piedi della catena costiera catalana. 
+-oltre ad essere il principale centro commerciale, finanaziario ed editoriale del paese.
+-Nel 1992 fu sede delle Olimpiadi estive. Nel 2004 vi si è tenuto per la prima volta il Forum Universale delle Culture oltre a ciò
+-è anche la sede fissa del Mobile World Congress e dell'Unione per il Mediterraneo. Grazie del turismo, al porto e alla vicinanza 
+-con la Francia, la città è il secondo maggior centro industriale e finanziario della Spagna dopo Madrid, 
+-nonché il maggior porto commerciale e turistico spagnolo e uno dei maggiori d'Europa.
+-Oltre alla possibilità di vantare queste caratteristiche, Barcellona offre molti bellissimi luoghi da visitare e coinvolgenti attività da praticare.</p></pre>
+- <img src= "tour-barcellona.jpg" alt= "Image" height="400" widht="400" align="center">
++
++<h1> LA CITTA' DI BARCELLONA </h1>
++<p style="text-align: center">Barcellona, la seconda città spagnoala per numero di abitanti dopo la capitale Madrid, è il capoluogo
++    della Comunità autonoma della Catalogna.
++    È situata in una limitata pianura costiera al nord dello stato spagnolo, tra i fiumi Llobregat e Besós, ai piedi
++    della catena costiera catalana.
++    oltre ad essere il principale centro commerciale, finanaziario ed editoriale del paese.
++    Nel 1992 fu sede delle Olimpiadi estive. Nel 2004 vi si è tenuto per la prima volta il Forum Universale delle
++    Culture oltre a ciò
++    è anche la sede fissa del Mobile World Congress e dell'Unione per il Mediterraneo. Grazie del turismo, al porto e
++    alla vicinanza
++    con la Francia, la città è il secondo maggior centro industriale e finanziario della Spagna dopo Madrid,
++    nonché il maggior porto commerciale e turistico spagnolo e uno dei maggiori d'Europa.
++    Oltre alla possibilità di vantare queste caratteristiche, Barcellona offre molti bellissimi luoghi da visitare e
++    coinvolgenti attività da praticare. </p>
++<img src="tour-barcellona.jpg" alt="Image" height="400" widht="400" align="center">
+ 
+ </body>
+ </html>
+Index: paginauno.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\r\n<!DOCTYPE html>\r\n<html>\r\n<head>\r\n<title> LA CITTA' DI BARCELLONA\r\n</title>  \r\n</head>\r\n<body style=\"background-color: rgb(241, 144, 161)\">\r\n <style>\r\n    ul {\r\n      list-style-type: none;\r\n      margin: 0;\r\n      padding: 0;\r\n      overflow: hidden;\r\n      background-color: rgb(241, 144, 161);\r\n    }\r\n    \r\n    li {\r\n      float: left;\r\n    }\r\n    \r\n    li a {\r\n      display: block;\r\n      color: white;\r\n      text-align: justify;\r\n      padding: 14px 16px;\r\n      text-decoration: none;\r\n    }\r\n    \r\n    li a:hover:not(.active) {\r\n      background-color: rgb(241, 144, 161);\r\n    }\r\n    \r\n    .active {\r\n      background-color: rgb(241, 144, 161);\r\n    }\r\n    p {font-family: bodoni MT;}\r\n    h1{font-family: book antiqua;}\r\n\r\n    </style>\r\n <h1> Cosa si può visitare </h1>\r\n<p align=left> <pre>\r\n<ul> \r\n  <li>Sagrada Familia: monumento simbolo della città, è una chiesa progettata da A. Gaudì ma ancora incompleta, \r\n                 la sua costruzione sta infatti procedendo secondo il progetto originale \r\n   <img src=\"sagrada familia.jpg\" alt=\"Image\" height=\"200\" widht=\"200\">\r\n  </li>\r\n\r\n  <li> La Rambla: la via più famosa di Barecllona è ricca di bancarelle da visitare e artisti di strada da ascoltare.\r\n            Moloto popolata di giorno e di notte è ricca di edifici e punti di interesse come il Museo delle cere, \r\n            il teatro Liceu e il mercato La Boqueria\r\n  <img src= \"la rambla.jpg\" alt= \"Image\" height=\"200\" widht=\"200\"></li>\r\n  <li> Parco Güell: un'altra delle costruzioni di Gaudì che inizialmente doveva essere un complesso residenziale per la borghesia del '900, \r\n               il progetto venne poi abbandonato e oggi è diventato uno dei simboli della città insieme alla sua fontana a forma di drago\r\n  <img src= \"parco guell.jpg\" alt= \"Image\" height=\"200\" widht=\"100\"></li>\r\n<li>Collina di Montjuic: è una vera e propria città nella città, la si raggiunge con la caratteristica funivia che parte dal porto, ma anche con una moderna telecabina,\r\n                      con i mezzi pubblici o persino a piedi. Giunti in vetta le attrazioni sono il castello di Montjuic, in origine una fortezza-prigione, \r\n                      lo Stadio Olimpico, casa dell’Espanyol fino al 2009 e meraviglia architettonica della città, \r\n                      ma anche il Museu Nacional d’Art de Catalunya e la Font Magica, \r\n                      uno spettacolo di fontane danzanti di luci e colori che illumina le notti di Barcellona.\r\n <img src= \"collina di montjuic.jpg\" alt= \"Image\" height=\"200\" widht=\"150\"></li>\r\n  <li>La Barceloneta: il quartiere della Barceloneta, un tempo tra i più degradati della città, è stato ristrutturato durante i lavori per le Olimpiadi del 1992. \r\n                Il quartiere è composto da ex case di pescatori, vicoli e soprattutto un lungomare moderno frequentato dalla gente del posto che ci va per correre, \r\n                andare in bicicletta o pattinare. Anche la spiaggia di Barcellona è pulita, bella e dotata di tutti i servizi, tra cui docce e attrezzi ginnici.  \r\n <img src= \"barceloneta.jpg\" alt= \"Image\" height=\"200\" widht=\"200\"> </li>\r\n</ul></p></pre>\r\n</html>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/paginauno.html b/paginauno.html
+--- a/paginauno.html	
++++ b/paginauno.html	
+@@ -1,67 +1,84 @@
+-
+ <!DOCTYPE html>
+ <html>
+ <head>
+-<title> LA CITTA' DI BARCELLONA
+-</title>  
++    <title> LA CITTA' DI BARCELLONA
++    </title>
+ </head>
+-<body style="background-color: rgb(241, 144, 161)">
+- <style>
++<style>
+     ul {
+-      list-style-type: none;
+-      margin: 0;
+-      padding: 0;
+-      overflow: hidden;
+-      background-color: rgb(241, 144, 161);
++        list-style-type: none;
++        margin: 0;
++        padding: 0;
++        overflow: hidden;
++        background-color: rgb(241, 144, 161);
+     }
+-    
++
+     li {
+-      float: left;
++        float: left;
+     }
+-    
++
+     li a {
+-      display: block;
+-      color: white;
+-      text-align: justify;
+-      padding: 14px 16px;
+-      text-decoration: none;
++        display: block;
++        color: white;
++        text-align: justify;
++        padding: 14px 16px;
++        text-decoration: none;
+     }
+-    
++
+     li a:hover:not(.active) {
+-      background-color: rgb(241, 144, 161);
++        background-color: rgb(241, 144, 161);
+     }
+-    
++
+     .active {
+-      background-color: rgb(241, 144, 161);
++        background-color: rgb(241, 144, 161);
+     }
+-    p {font-family: bodoni MT;}
+-    h1{font-family: book antiqua;}
++
++    p {
++        font-family: calibri light;
++    }
++
++    h1 {
++        font-family: book antiqua;
++    }
+ 
+-    </style>
+- <h1> Cosa si può visitare </h1>
+-<p align=left> <pre>
+-<ul> 
+-  <li>Sagrada Familia: monumento simbolo della città, è una chiesa progettata da A. Gaudì ma ancora incompleta, 
+-                 la sua costruzione sta infatti procedendo secondo il progetto originale 
+-   <img src="sagrada familia.jpg" alt="Image" height="200" widht="200">
+-  </li>
++</style>
++<body style="background-color: rgb(241, 144, 161)">
++<div>
++
++
++    <h1> Cosa si può visitare </h1>
++    <ul >
++        <li>
++            <p>Sagrada Familia: monumento simbolo della città, è una chiesa progettata da A. Gaudì ma ancora incompleta,
++                la sua costruzione sta infatti procedendo secondo il progetto originale</p>
++            <img src="sagrada%20familia.jpg" alt="Image" height="200" widht="200">
++        </li>
+ 
+-  <li> La Rambla: la via più famosa di Barecllona è ricca di bancarelle da visitare e artisti di strada da ascoltare.
+-            Moloto popolata di giorno e di notte è ricca di edifici e punti di interesse come il Museo delle cere, 
+-            il teatro Liceu e il mercato La Boqueria
+-  <img src= "la rambla.jpg" alt= "Image" height="200" widht="200"></li>
+-  <li> Parco Güell: un'altra delle costruzioni di Gaudì che inizialmente doveva essere un complesso residenziale per la borghesia del '900, 
+-               il progetto venne poi abbandonato e oggi è diventato uno dei simboli della città insieme alla sua fontana a forma di drago
+-  <img src= "parco guell.jpg" alt= "Image" height="200" widht="100"></li>
+-<li>Collina di Montjuic: è una vera e propria città nella città, la si raggiunge con la caratteristica funivia che parte dal porto, ma anche con una moderna telecabina,
+-                      con i mezzi pubblici o persino a piedi. Giunti in vetta le attrazioni sono il castello di Montjuic, in origine una fortezza-prigione, 
+-                      lo Stadio Olimpico, casa dell’Espanyol fino al 2009 e meraviglia architettonica della città, 
+-                      ma anche il Museu Nacional d’Art de Catalunya e la Font Magica, 
+-                      uno spettacolo di fontane danzanti di luci e colori che illumina le notti di Barcellona.
+- <img src= "collina di montjuic.jpg" alt= "Image" height="200" widht="150"></li>
+-  <li>La Barceloneta: il quartiere della Barceloneta, un tempo tra i più degradati della città, è stato ristrutturato durante i lavori per le Olimpiadi del 1992. 
+-                Il quartiere è composto da ex case di pescatori, vicoli e soprattutto un lungomare moderno frequentato dalla gente del posto che ci va per correre, 
+-                andare in bicicletta o pattinare. Anche la spiaggia di Barcellona è pulita, bella e dotata di tutti i servizi, tra cui docce e attrezzi ginnici.  
+- <img src= "barceloneta.jpg" alt= "Image" height="200" widht="200"> </li>
+-</ul></p></pre>
+-</html>
++
++        <li><p> La Rambla: la via più famosa di Barecllona è ricca di bancarelle da visitare e artisti di strada da
++            ascoltare.
++            Moloto popolata di giorno e di notte è ricca di edifici e punti di interesse come il Museo delle cere, il
++            teatro Liceu e il mercato La Boqueria
++        </p> <img src="la rambla.jpg" alt="Image" height="200" widht="200" align="right"></li>
++        <li><p>Parco Güell: un'altra delle costruzioni di Gaudì che inizialmente doveva essere un complesso residenziale
++            per la borghesia del '900,
++            il progetto venne poi abbandonato e oggi è diventato uno dei simboli della città insieme alla sua fontana a
++            forma di drago
++        </p><img src="parco guell.jpg" alt="Image" height="200" widht="100"></li>
++        <li><p>Collina di Montjuic: è una vera e propria città nella città, la si raggiunge con la caratteristica
++            funivia che parte dal porto, ma anche con una moderna telecabina,
++            con i mezzi pubblici o persino a piedi. Giunti in vetta le attrazioni sono il castello di Montjuic, in
++            origine una fortezza-prigione,
++            lo Stadio Olimpico, casa dell’Espanyol fino al 2009 e meraviglia architettonica della città, ma anche il
++            Museu Nacional d’Art de Catalunya e la Font Magica,
++            uno spettacolo di fontane danzanti di luci e colori che illumina le notti di Barcellona.</p>
++            <img src="collina di montjuic.jpg" alt="Image" height="200" widht="150" align="right"></li>
++        <li><p>La Barceloneta: il quartiere della Barceloneta, un tempo tra i più degradati della città, è stato
++            ristrutturato durante i lavori per le Olimpiadi del 1992.
++            Il quartiere è composto da ex case di pescatori, vicoli e soprattutto un lungomare moderno frequentato dalla
++            gente del posto che ci va per correre, andare in bicicletta o pattinare.
++            Anche la spiaggia di Barcellona è pulita, bella e dotata di tutti i servizi, tra cui docce e attrezzi
++            ginnici.</p>
++            <img src="barceloneta.jpg" alt="Image" height="200" widht="200"></li>
++    </ul>
++
