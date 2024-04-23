@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2e7d050-1d12-4dc5-852b-8963f85afd03" name="Changes" comment="refractoring , added cosavedere.html(work in progress)">
-      <change afterPath="$PROJECT_DIR$/resources/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sito1/index.html" afterDir="false" />
+    <list default="true" id="b2e7d050-1d12-4dc5-852b-8963f85afd03" name="Changes" comment="new site">
+      <change afterPath="$PROJECT_DIR$/sito2/cartina.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sito1/paginadue.html" beforeDir="false" afterPath="$PROJECT_DIR$/sito1/paginadue.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sito1/paginauno.html" beforeDir="false" afterPath="$PROJECT_DIR$/sito1/paginauno.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sito2/cosavedere.html" beforeDir="false" afterPath="$PROJECT_DIR$/sito2/cosavedere.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +98,7 @@
       <workItem from="1713368200610" duration="315000" />
       <workItem from="1713718972028" duration="2537000" />
       <workItem from="1713805169527" duration="1268000" />
-      <workItem from="1713888153794" duration="4235000" />
+      <workItem from="1713888153794" duration="10617000" />
     </task>
     <task id="LOCAL-00001" summary="added version 2.0 (homepage.html), fixed index.html">
       <option name="closed" value="true" />
@@ -166,7 +164,23 @@
       <option name="project" value="LOCAL" />
       <updated>1713809765611</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="new site">
+      <option name="closed" value="true" />
+      <created>1713892412586</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1713892412586</updated>
+    </task>
+    <task id="LOCAL-00010" summary="new site">
+      <option name="closed" value="true" />
+      <created>1713892476240</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1713892476240</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +201,7 @@
     <MESSAGE value="added version 2.0 (homepage.html), fixed index.html" />
     <MESSAGE value="added version 2.0 (homepage.html)" />
     <MESSAGE value="refractoring , added cosavedere.html(work in progress)" />
-    <option name="LAST_COMMIT_MESSAGE" value="refractoring , added cosavedere.html(work in progress)" />
+    <MESSAGE value="new site" />
+    <option name="LAST_COMMIT_MESSAGE" value="new site" />
   </component>
 </project>
